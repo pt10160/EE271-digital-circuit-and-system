@@ -1,0 +1,4 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10034): Output port "LEDR[9..4]" at DE1_SoC.sv(3) has no driver File: C:/Users/sps1/Desktop/New folder/DE1_SoC.sv Line: 3
+Warning (10034): Output port "LEDR[2..1]" at DE1_SoC.sv(3) has no driver File: C:/Users/sps1/Desktop/New folder/DE1_SoC.sv Line: 3
+Warning (13024): Output pins are stuck at VCC or GND
