@@ -1,0 +1,54 @@
+// userInput module take in two button signals and 
+module userInput (
+	input clk,    // Clock
+	input reset,  // Asynchronous reset active low
+	input leftButton,
+	input rightButton,
+	output reg L, 
+	output reg R
+);
+
+	button Left (.clk, .reset, .button(leftButton) , .out(L));
+	button Right(.clk, .reset, .button(rightButton), .out(R));
+
+endmodule
+
+module button (
+	input clk,    // Clock
+	input reset,  // Asynchronous reset active low
+	input button,
+	output reg out;
+);
+	reg ns, oldButton;
+	parameter on = 1'b1, off = 1'b0;
+
+	always @(*)
+		case (out)
+			on:  
+			begin
+				ns = off;
+			end 
+			
+			off:
+			begin
+				if(button == on & button != oldButton)
+					ns = on;
+				else
+					ns = off;
+			end
+			default: 
+
+    // DFFs
+    always @(posedge clk)
+    	if (reset)
+    	begin
+			out <= off;
+			oldButton <= off;
+		end
+        else 
+        begin 
+        	out <= ns;
+        	oldButton <= button;
+        end
+
+endmodule

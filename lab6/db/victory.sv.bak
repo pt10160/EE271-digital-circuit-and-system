@@ -1,0 +1,58 @@
+module victory (
+	input clk,     // Clock
+	input reset,   // Asynchronous reset active low
+	input leftest, // the most left light ON or OFF
+	input L,	   // signal that left button is pressed
+	input rightest,// the most right light ON or OFF
+	input R,       // signal that right button is pressed
+	output reg [6:0] display
+);
+	reg [1:0] ps, ns;
+	// states encoding
+	parameter off = 2'b00, one = 2'b01, two = 2'b10;
+
+	// output encoding
+	reg [6:0] nil, ONE, TWO;
+	assign nil = 7'b1111111;
+	assign ONE = 7'b1001111;
+	assign TWO = 7'b0010010;
+
+	always @(*)
+		case (ps)
+			off:	if (leftest & L & ~R) 
+						begin
+							ns = one;
+							display = ONE;
+						end
+					else if (rightest & R & ~L)
+						begin
+							ns = two;
+							display = TWO;
+						end
+					else 
+						begin
+							ns = off;
+							display = nil;
+						end
+			one:	
+				begin 	ns = one;
+						display = ONE;
+				end
+			two:
+				begin	ns = two;
+						display = TWO;
+				end
+			default :
+				begin  	ns = off;
+						display = nil;
+				end
+		endcase
+
+	// DFFs
+    always @(posedge clk)
+    	if (reset)
+            ps <= off;
+        else 
+        	ps <= ns;
+
+endmodule

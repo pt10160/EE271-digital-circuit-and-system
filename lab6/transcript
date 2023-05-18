@@ -1,0 +1,366 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playField
+# -- Compiling module playField_testbench
+# 
+# Top level modules:
+# 	playField_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LSDR
+# -- Compiling module LSDR_testbench
+# 
+# Top level modules:
+# 	LSDR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# -- Compiling module adder_testbench
+# 
+# Top level modules:
+# 	adder_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.clock_divider
+# Loading work.DE1_SoC
+# Loading work.LSDR
+# Loading work.adder
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.playField
+# Loading work.victory
+# Loading work.decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft6j8wd9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6j8wd9
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# MACRO ./runlab.do PAUSED at line 31
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playField
+# -- Compiling module playField_testbench
+# 
+# Top level modules:
+# 	playField_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LSDR
+# -- Compiling module LSDR_testbench
+# 
+# Top level modules:
+# 	LSDR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# -- Compiling module adder_testbench
+# 
+# Top level modules:
+# 	adder_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.clock_divider
+# Loading work.DE1_SoC
+# Loading work.LSDR
+# Loading work.adder
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.playField
+# Loading work.victory
+# Loading work.decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft9kz107".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft9kz107
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# MACRO ./runlab.do PAUSED at line 31
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playField
+# -- Compiling module playField_testbench
+# 
+# Top level modules:
+# 	playField_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LSDR
+# -- Compiling module LSDR_testbench
+# 
+# Top level modules:
+# 	LSDR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# -- Compiling module adder_testbench
+# 
+# Top level modules:
+# 	adder_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.clock_divider
+# Loading work.DE1_SoC
+# Loading work.LSDR
+# Loading work.adder
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.playField
+# Loading work.victory
+# Loading work.decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlftt41yjm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftt41yjm
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# MACRO ./runlab.do PAUSED at line 31
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playField
+# -- Compiling module playField_testbench
+# 
+# Top level modules:
+# 	playField_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LSDR
+# -- Compiling module LSDR_testbench
+# 
+# Top level modules:
+# 	LSDR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# -- Compiling module adder_testbench
+# 
+# Top level modules:
+# 	adder_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.clock_divider
+# Loading work.DE1_SoC
+# Loading work.LSDR
+# Loading work.adder
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.playField
+# Loading work.victory
+# Loading work.decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlfthq0t04".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfthq0t04
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# MACRO ./runlab.do PAUSED at line 31
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playField
+# -- Compiling module playField_testbench
+# 
+# Top level modules:
+# 	playField_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LSDR
+# -- Compiling module LSDR_testbench
+# 
+# Top level modules:
+# 	LSDR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# -- Compiling module adder_testbench
+# 
+# Top level modules:
+# 	adder_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.clock_divider
+# Loading work.DE1_SoC
+# Loading work.LSDR
+# Loading work.adder
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.playField
+# Loading work.victory
+# Loading work.decoder
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft018cmr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft018cmr
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 114
+# MACRO ./runlab.do PAUSED at line 31

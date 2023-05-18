@@ -1,0 +1,173 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/zeqili/Desktop/Lab4
+vclock_divider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1676066972
+!i10b 1
+!s100 1lgZ^Zo8:kMA`JH6EDJb=2
+I3TiKLkXVQ5iTAO9^Bgg@T0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clock_divider_sv_unit
+S1
+R0
+w1676060871
+8./clock_divider.sv
+F./clock_divider.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1676066972.000000
+!s107 ./clock_divider.sv|
+!s90 -reportprogress|300|./clock_divider.sv|
+!i113 1
+Z6 tCvgOpt 0
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 2><IIc0a4hjJa3hVl_[eO0
+I>C@<^T=9>2cgPacG;7LzU0
+R3
+Z7 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z8 w1676066445
+Z9 8./DE1_SoC.sv
+Z10 F./DE1_SoC.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 ./DE1_SoC.sv|
+Z12 !s90 -reportprogress|300|./DE1_SoC.sv|
+!i113 1
+R6
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 X:FHNhmaH[zgbjDP7iUCU3
+I1`J=b=65adEGAPg5cfD1=2
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 39
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+n@d@e1_@so@c_testbench
+vsimple
+R1
+R2
+!i10b 1
+!s100 =?Oh=BKQZYg`9nBdAS^3S2
+IADd3^VOChY7:93IXHMMm[0
+R3
+Z13 !s105 simple_sv_unit
+S1
+R0
+Z14 w1676061101
+Z15 8./simple.sv
+Z16 F./simple.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z17 !s107 ./simple.sv|
+Z18 !s90 -reportprogress|300|./simple.sv|
+!i113 1
+R6
+vsimple_testbench
+R1
+R2
+!i10b 1
+!s100 hS2i7XKQ;ffK8W6U4fdTA3
+I6nOdz8FR1ze1<7Z10;UeE2
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 28
+R4
+r1
+!s85 0
+31
+R5
+R17
+R18
+!i113 1
+R6
+vwind
+R1
+R2
+!i10b 1
+!s100 ]82Pm9Y5>Y_RzBWFIczSm2
+Igd66moZ_=i`JJhTh<j`gb1
+R3
+Z19 !s105 wind_sv_unit
+S1
+R0
+R8
+Z20 8./wind.sv
+Z21 F./wind.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z22 !s107 ./wind.sv|
+Z23 !s90 -reportprogress|300|./wind.sv|
+!i113 1
+R6
+vwind_testbench
+R1
+R2
+!i10b 1
+!s100 ez3eYoLcXW=nA^QNbgzn;3
+IgzCK:Lj1b06M?XYCj4NM@2
+R3
+R19
+S1
+R0
+R8
+R20
+R21
+L0 55
+R4
+r1
+!s85 0
+31
+R5
+R22
+R23
+!i113 1
+R6

@@ -1,0 +1,7 @@
+module adder (
+	input [8:0] A, B,
+	output [9:0] sum
+);
+	assign sum = A + B;
+
+endmodule

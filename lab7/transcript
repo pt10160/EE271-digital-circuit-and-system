@@ -1,0 +1,331 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:41 on Mar 09,2023
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 18:15:41 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:41 on Mar 09,2023
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 18:15:41 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:41 on Mar 09,2023
+# vlog -reportprogress 300 ./LEDArray.sv 
+# -- Compiling module LEDArray
+# 
+# Top level modules:
+# 	LEDArray
+# End time: 18:15:41 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./lightCtr.sv 
+# -- Compiling module lightCtr
+# -- Compiling module lightCtr_testbench
+# 
+# Top level modules:
+# 	lightCtr_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./laneRight.sv 
+# -- Compiling module laneRight
+# -- Compiling module laneRight_testbench
+# 
+# Top level modules:
+# 	laneRight_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./laneLeft.sv 
+# -- Compiling module laneLeft
+# -- Compiling module laneLeft_testbench
+# 
+# Top level modules:
+# 	laneLeft_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./northSideWalk.sv 
+# -- Compiling module northSideWalk
+# -- Compiling module northSideWalk_testbench
+# 
+# Top level modules:
+# 	northSideWalk_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./southSideWalk.sv 
+# -- Compiling module southSideWalk
+# -- Compiling module southSideWalk_testbench
+# 
+# Top level modules:
+# 	southSideWalk_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./processInput.sv 
+# -- Compiling module processInput
+# -- Compiling module processInput_testbench
+# 
+# Top level modules:
+# 	processInput_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:42 on Mar 09,2023
+# vlog -reportprogress 300 ./gameEnd.sv 
+# -- Compiling module gameEnd
+# -- Compiling module gameEnd_testbench
+# 
+# Top level modules:
+# 	gameEnd
+# 	gameEnd_testbench
+# End time: 18:15:42 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 18:15:42 on Mar 09,2023
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.processInput
+# Loading work.northSideWalk
+# Loading work.laneLeft
+# Loading work.lightCtr
+# Loading work.laneRight
+# Loading work.southSideWalk
+# Loading work.gameEnd
+# Loading work.LEDArray
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'EnableCount'. The port definition is at: ./LEDDriver.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/driver File: ./LEDDriver.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(57): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane14 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(58): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane13 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(59): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane12 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(60): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane11 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(61): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane10 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(62): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane9 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(63): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane8 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(64): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane7 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane6 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(66): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane5 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane4 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(68): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane3 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(69): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane2 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(70): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane1 File: ./laneRight.sv
+# ** Error: Cannot open macro file: DE1_SoC_wave.do
+# Error in macro ./runlab.do line 29
+# Cannot open macro file: DE1_SoC_wave.do
+#     while executing
+# "do DE1_SoC_wave.do"
+add wave -position end  sim:/DE1_SoC_testbench/dut/RedPixels
+add wave -position end  sim:/DE1_SoC_testbench/dut/GrnPixels
+add wave -position end  sim:/DE1_SoC_testbench/dut/KEY
+add wave -position end  sim:/DE1_SoC_testbench/dut/SW
+add wave -position end  sim:/DE1_SoC_testbench/dut/CLOCK_50
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX0
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX1
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX2
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX3
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX4
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX5
+add wave -position end  sim:/DE1_SoC_testbench/dut/speed
+add wave -position end  sim:/DE1_SoC_testbench/dut/newGameOut
+add wave -position end  sim:/DE1_SoC_testbench/dut/newGameIn
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/zeqili/Desktop/Lab4/DE1_SoC_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./LEDArray.sv 
+# -- Compiling module LEDArray
+# 
+# Top level modules:
+# 	LEDArray
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./lightCtr.sv 
+# -- Compiling module lightCtr
+# -- Compiling module lightCtr_testbench
+# 
+# Top level modules:
+# 	lightCtr_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./laneRight.sv 
+# -- Compiling module laneRight
+# -- Compiling module laneRight_testbench
+# 
+# Top level modules:
+# 	laneRight_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./laneLeft.sv 
+# -- Compiling module laneLeft
+# -- Compiling module laneLeft_testbench
+# 
+# Top level modules:
+# 	laneLeft_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./northSideWalk.sv 
+# -- Compiling module northSideWalk
+# -- Compiling module northSideWalk_testbench
+# 
+# Top level modules:
+# 	northSideWalk_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./southSideWalk.sv 
+# -- Compiling module southSideWalk
+# -- Compiling module southSideWalk_testbench
+# 
+# Top level modules:
+# 	southSideWalk_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./processInput.sv 
+# -- Compiling module processInput
+# -- Compiling module processInput_testbench
+# 
+# Top level modules:
+# 	processInput_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:00 on Mar 09,2023
+# vlog -reportprogress 300 ./gameEnd.sv 
+# -- Compiling module gameEnd
+# -- Compiling module gameEnd_testbench
+# 
+# Top level modules:
+# 	gameEnd
+# 	gameEnd_testbench
+# End time: 18:17:00 on Mar 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:17:02 on Mar 09,2023, Elapsed time: 0:01:20
+# Errors: 3, Warnings: 15
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 18:17:02 on Mar 09,2023
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.processInput
+# Loading work.northSideWalk
+# Loading work.laneLeft
+# Loading work.lightCtr
+# Loading work.laneRight
+# Loading work.southSideWalk
+# Loading work.gameEnd
+# Loading work.LEDArray
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'EnableCount'. The port definition is at: ./LEDDriver.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/driver File: ./LEDDriver.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(57): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane14 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(58): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane13 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(59): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane12 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(60): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane11 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(61): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane10 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(62): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane9 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(63): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane8 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(64): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane7 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane6 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(66): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane5 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane4 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(68): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane3 File: ./laneRight.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(69): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneLeft.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane2 File: ./laneLeft.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(70): [PCDPC] - Port size (8) does not match connection size (1) for port 'speed'. The port definition is at: ./laneRight.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lane1 File: ./laneRight.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(202)
+#    Time: 22150 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 202
+# End time: 18:17:45 on Mar 09,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 15

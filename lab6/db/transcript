@@ -1,0 +1,550 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.userInput
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlftri7byx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftri7byx
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 115
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 115
+# MACRO ./runlab.do PAUSED at line 29
+do r
+# Cannot open macro file: r
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.userInput
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft4vbsxm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft4vbsxm
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 121
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 121
+# MACRO ./runlab.do PAUSED at line 29
+do ru
+# Cannot open macro file: ru
+DO RUnlab.do
+# invalid command name "DO"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps button_testbench 
+# Loading sv_std.std
+# Loading work.button_testbench
+# Loading work.button
+# ** Error: Cannot open macro file: button_wave.do
+# Error in macro ./runlab.do line 21
+# Cannot open macro file: button_wave.do
+#     while executing
+# "do button_wave.do"
+add wave -position end  sim:/button_testbench/out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft2c0s1x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2c0s1x
+# 
+add wave -position end  sim:/button_testbench/button
+add wave -position end  sim:/button_testbench/reset
+add wave -position end  sim:/button_testbench/clk
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE271/Lab6/button_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps button_testbench 
+# Loading sv_std.std
+# Loading work.button_testbench
+# Loading work.button
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlftnjzha6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftnjzha6
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module button_testbench at ./userInput.sv line 80
+# Simulation Breakpoint: Break in Module button_testbench at ./userInput.sv line 80
+# MACRO ./runlab.do PAUSED at line 29
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps button_testbench 
+# Loading sv_std.std
+# Loading work.button_testbench
+# Loading work.button
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlftydzfje".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftydzfje
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module button_testbench at ./userInput.sv line 92
+# Simulation Breakpoint: Break in Module button_testbench at ./userInput.sv line 92
+# MACRO ./runlab.do PAUSED at line 29
+do ru
+# Cannot open macro file: ru
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.userInput
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft63cj3e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft63cj3e
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 121
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 121
+# MACRO ./runlab.do PAUSED at line 29
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.userInput
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlftfhtqfe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftfhtqfe
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 121
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 121
+# MACRO ./runlab.do PAUSED at line 29
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.userInput
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlft05mt72".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft05mt72
+# 
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/CLOCK_50'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 92
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 92
+# MACRO ./runlab.do PAUSED at line 29
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module playTugOfWar
+# -- Compiling module playTugOfWar_testbench
+# 
+# Top level modules:
+# 	playTugOfWar_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module normalLight
+# 
+# Top level modules:
+# 	centerLight
+# 	normalLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module userInput
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	button_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.userInput
+# Loading work.button
+# Loading work.playTugOfWar
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pshfls  Hostname: EE-365PC10  ProcessID: 6324
+# 
+#           Attempting to use alternate WLF file "./wlftcgv2er".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftcgv2er
+# 
+# ** Error: (vish-4014) No objects found matching '/DE1_SoC_testbench/CLOCK_50'.
+# Executing ONERROR command at macro ./DE1_SoC_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 92
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 92
+# MACRO ./runlab.do PAUSED at line 29

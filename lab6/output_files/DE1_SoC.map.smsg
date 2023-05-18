@@ -1,0 +1,10 @@
+Info (10281): Verilog HDL Declaration information at victory.sv(63): object "zero" differs only in case from object "ZERO" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 63
+Info (10281): Verilog HDL Declaration information at victory.sv(63): object "one" differs only in case from object "ONE" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 63
+Info (10281): Verilog HDL Declaration information at victory.sv(63): object "two" differs only in case from object "TWO" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 63
+Info (10281): Verilog HDL Declaration information at victory.sv(63): object "three" differs only in case from object "THREE" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 63
+Info (10281): Verilog HDL Declaration information at victory.sv(64): object "four" differs only in case from object "FOUR" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 64
+Info (10281): Verilog HDL Declaration information at victory.sv(64): object "five" differs only in case from object "FIVE" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 64
+Info (10281): Verilog HDL Declaration information at victory.sv(64): object "six" differs only in case from object "SIX" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 64
+Info (10281): Verilog HDL Declaration information at victory.sv(64): object "seven" differs only in case from object "SEVEN" in the same scope File: C:/Users/zeqili/Desktop/lab6/victory.sv Line: 64
+Warning (10034): Output port "LEDR[0]" at DE1_SoC.sv(7) has no driver File: C:/Users/zeqili/Desktop/lab6/DE1_SoC.sv Line: 7
+Warning (13024): Output pins are stuck at VCC or GND

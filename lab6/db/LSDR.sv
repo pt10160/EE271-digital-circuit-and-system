@@ -1,0 +1,14 @@
+module LSDR (
+	input clk,    // Clock
+	input reset,  // Asynchronous reset active low
+	output reg [8:0] out
+);
+	initial
+		out = 0;
+	
+	always @(posedge clk) begin
+		out <= out >> 1;
+		out[8] <= (out[0]^out[4]);
+		end
+
+endmodule

@@ -1,0 +1,11 @@
+CLOCK_PERIOD = 100
+HEX0 = zzzzzzz
+HEX1 = zzzzzzz
+HEX2 = zzzzzzz
+HEX3 = zzzzzzz
+HEX4 = zzzzzzz
+HEX5 = zzzzzzz
+LEDR = zzzzzzzxxx
+KEY = xxxx
+SW = xxxxxxxx11
+clk = 1
